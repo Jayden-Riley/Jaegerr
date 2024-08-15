@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{  
+    background-color: #002233;
+
+}
+header{
+    padding: 30px 15px;
+    background-color:  #002233;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 1.8em;
+    
+    color: black
+}
+.images{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+nav ul li{
+    list-style: none;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 10px;
+
+}
+
+.phone a{
+    /* border: 2px solid rgb(92, 141, 92); */
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter;
+    
+}
+.container{
+    display: grid;
+    gap: 200px;
+}
+.con{
+    overflow-x: hidden;
+    display: flex;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    /* text-align: center; */
+    text-align: center;
+    color: white;
+    gap: 30px;
+}
+
+#image-wave{
+    background-image: url(/images/wave-haikei2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#blob{
+    background-image: url(/images/blob-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.con h2{
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.con p{
+
+}
+.con button{
+    padding: 10px 40px;
+    font-size: 1.3em;
+    border-radius: 30px;
+    color: white;
+    font-weight: medium;
+    background-color: lightseagreen;
+}
+.learn-more{
+    position: relative;
+    display: inline;
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+    margin-left: 20px;
+    /* padding-right: 150px; */
+    align-self: flex-start;
+    font-size: 1.3em;
+    color: rgb(93, 235, 228);
+    font-weight: bold;
+}
+.learn-more span {
+    color: black;
+border: transparent ;
+padding: 4px;
+border-radius: 50%;
+background-color: lightseagreen;
+}
+
+.learn-more::after{
+content: "";
+    position: absolute;
+    bottom: -20px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 5px;
+    left: 0;
+}
+.comment{
+    /* border: 2px solid yellow; */
+    padding: 60px 70px;
+}
+
+.back{
+    padding: 10px 20px;
+    border: transparent;
+    /* padding: 45px 50px; */
+    background-color: #021523;
+    box-shadow: 3px 3px 8px 8px rgba(128, 127, 127, 0.2);
+
+    /* border: 2px solid red; */
+    color: white;
+    display: grid;
+    gap: 25px;
+    font-weight: lighter;
+}
+.front  {
+
+   /* display: flex; */
+   gap: 10px;
+    align-items: center;
+    /* border: 2px solid pink; */
+    display: flex; 
+}
+.front img{
+    border-radius: 50%;
+}
+.front h3{
+    font-weight: lighter;
+}
+.front p{
+    font-weight: lighter;
+}
+.back h3{
+    
+}
+.back-end{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
